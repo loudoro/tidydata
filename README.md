@@ -32,8 +32,8 @@ The script has five sections of codes following the five requirements of the pro
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
   * Melt the output of Step 4 to make activity and subject the ids and measurements the variables.
   * Use dcast to calculate mean of all measurements for every unique combination of activity and subject.
-  * Write the final data set into a text file.
+  * Write the final data set into a text file (tidydata.txt).
 
 
 ## CodeBook.md
-The file describes the variables, the data, and any transformations or work that I performed to clean up the data.
+The file describes the variables and the data source of tidydata.txt.
