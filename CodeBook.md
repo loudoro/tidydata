@@ -25,8 +25,10 @@ For more information about the raw data, please read the "README.txt" from the d
 
 ### Data Dictionary - tidydata.txt
 
-- activity 
-  Type of activity
+- activity
+
+      Type of activity
+  
         * WALKING
         * WALKING_UPSTAIRS
         * WALKING_DOWNSTAIRS
@@ -35,8 +37,9 @@ For more information about the raw data, please read the "README.txt" from the d
         * LAYING
         
 - subject
-  Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+  
+      Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 - Column 3 to 68
-  means of variable selected. Please refer to README.md for the variable selection process.
-        * Features are normalized and bounded within [-1,1].
+
+      means of variable selected. Please refer to README.md for the variable selection process. Features are normalized and bounded within [-1,1].
