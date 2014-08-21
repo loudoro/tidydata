@@ -31,7 +31,7 @@ The script has five sections of codes following the five requirements of the pro
 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
   * Melt the output of Step 4 to make activity and subject the ids and measurements the variables.
-  * Cast the molten data to get the final data set. Each row of this data set has all measurements of the relavant features in separate columns for a unique combination of activity and subject.
+  * Use dcast to calculate mean of all measurements for every unique combination of activity and subject.
   * Write the final data set into a text file.
 
 
